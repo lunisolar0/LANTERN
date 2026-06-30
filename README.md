@@ -2,7 +2,7 @@
 
 **La**tent Relatio**n**ship Mining and A**t**omicity-Awar**e** Dual-View **R**outing for Load-Balanced Bug Triage.
 
-> Reference implementation accompanying the paper *"LANTERN: Latent Relationship Mining and Atomicity-Aware Dual-View Routing for Load-Balanced Bug Triage"*.
+> Reference implementation accompanying the paper *"Breaking the Vicious Cycle: A Load-Intervention Network for Bug Triage(LANTERN)"*.
 
 ---
 
