@@ -154,22 +154,6 @@ Each record contains an `owner` (developer identifier), `issue_title`, and `desc
 
 ---
 
-## Citation
-
-If you use this code or find the LANTERN framework helpful in your research, please cite the original paper:
-
-```bibtex
-@article{lantern,
-  title     = {LANTERN: Latent Relationship Mining and Atomicity-Aware
-               Dual-View Routing for Load-Balanced Bug Triage},
-  author    = {...},
-  journal   = {...},
-  year      = {...},
-}
-```
-
----
-
 ## License
 
 This project is released for research and reproducibility purposes. See the repository's license file for details.
