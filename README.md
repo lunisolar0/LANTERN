@@ -110,23 +110,6 @@ Each run performs:
 4. Full-batch BPR training with early stopping
 5. Evaluation (HR@K, NDCG@K, MRR) on the test set
 
-### Configuration
-
-All hyperparameters are centralized in [`lantern/config.py`](lantern/config.py):
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `HIDDEN_DIM` | 64 | Developer embedding dimension |
-| `NUM_LAYERS_EXP` | 2 | Explicit propagation layers (*Lₑ*) |
-| `NUM_LAYERS_IMP` | 2 | Implicit propagation layers (*Lᵢ*) |
-| `TOP_K_AUG` | 5 | Top-*K* candidates for semantic augmentation |
-| `TAU_MIN` | 0.30 | Minimum cosine similarity threshold |
-| `EMBED_DIM` | 128 | Text embedding dimension (SVD) |
-| `EPOCHS` | 200 | Maximum training epochs |
-| `LR` | 1e-3 | Learning rate |
-| `L2_REG` | 1e-4 | L₂ regularization on embeddings |
-
----
 
 ## Repository Structure
 
